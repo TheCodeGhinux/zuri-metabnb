@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1
+  }
+}
+
+/* * {
+  border: 1px solid red;
+  
+} */
+
+
+:root {
+  --primary-linear: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  --primary-color : #A02279;
+  --primary-dark: #434343;
+
+}
+
+body {
+  font-family: 'Red Rose', cursive;
+  font-style: normal;
+}
+/* .main__container {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+} */
+
+.text-purple {
+  color: var(--primary-color);
+}
+
+.bg-purple {
+  background: var(--primary-linear);
+}
+
+button {
+  border-radius: 0px;
+}

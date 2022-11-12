@@ -1,0 +1,109 @@
+
+#heropage {
+    position: relative;
+}
+
+.heropage__con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1221px;
+    height: 459px;
+    left: 100px;
+    top: 216px;
+}
+
+
+.heropage__header {
+    width: 646px;
+    height: 148px;
+
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    /* or 78px */
+
+    letter-spacing: -0.02em;
+
+    /* text black */
+
+    color: var(--primary-dark);
+}
+
+.heropage__header span {
+    /* background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%); */
+    color: var(--primary-color);
+}
+
+.heropage__subtext {
+    width: 636px;
+    height: 102px;
+
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+
+
+    /* text black */
+
+    color: var(--primary-dark);
+}
+
+.heropage__img__con {
+    width: 476px;
+    height: 459px;
+}
+
+.heropage__img__con img {
+    border-radius: 15px;
+}
+
+.heropage__img1 {
+    position: absolute;
+    width: 234px;
+    height: 176px;
+    left: 987px;
+    top: 0px;
+    border-radius: 15px;
+
+    /* background: url(s2.png); */
+
+}
+
+.heropage__img2 {
+    position: absolute;
+    width: 234px;
+    height: 176px;
+    left: 745px;
+    top: 99px;
+    border-radius: 15px;
+    /* background: url(susan 1.png); */
+}
+
+.heropage__img3 {
+    
+    position: absolute;
+    width: 234px;
+    height: 176px;
+    left: 745px;
+    top: 283px;
+    border-radius: 15px;
+    
+    /* background: url(s9.png); */
+}
+
+.heropage__img4 {
+    position: absolute;
+    width: 234px;
+    height: 176px;
+    left: 987px;
+    top: 184px;
+    border-radius: 15px;
+}

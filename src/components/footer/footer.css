@@ -1,0 +1,34 @@
+
+
+.footer__logo__con {
+    position: relative;
+    left: 7.85%;
+    right: 75.97%;
+    top: 18.01%;
+    bottom: 69.57%;
+}
+
+.footer__text__con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /* gap: 217px; */
+
+    position: relative;
+    width: 698px;
+    height: 169px;
+    left: 533px;
+    top: 63px;
+}
+
+.footer__inner__con {
+    color: white;
+}
+
+.footer__inner__con > h3{
+    font-size: 18px;
+    font-weight: 700
+    
+}
