@@ -1,5 +1,8 @@
 import React from 'react'
 import './conect.css'
+import img1 from '../../assets/metamask.png'
+import img2 from '../../assets/walletconnect.png'
+
 
 
 
@@ -18,8 +21,8 @@ const Connect = ({open, onClose}) => {
               <p className=" flex ">Choose your prefered wallet</p>
               <div className="flex flex-col gap-4">
                 <div className="flex justify-between items-center py-3 px-5 bg-gray-100 rounded-lg border border-gray-300">
-                  <div className="">
-                    {/* <img src={img1} alt="" />  */}
+                  <div className="flex items-center gap-4">
+                    <img src={img1} alt="" /> 
                     <p>Metamask</p>
                   </div>
                   <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,8 +31,8 @@ const Connect = ({open, onClose}) => {
 
                 </div>
                 <div className="flex justify-between items-center py-3 px-5 rounded-lg border border-gray-300">
-                    <div className="">
-                      {/* <img src={img1} alt="" />  */}
+                    <div className="flex items-center gap-4">
+                      <img src={img2} alt="" /> 
                       <p>WalletConnect</p>
                     </div>
                     <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
