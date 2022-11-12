@@ -1,5 +1,5 @@
 import React from 'react'
-import Heropage from './home/Heropage'
+import Heropage from './heropage/Heropage'
 import Location from '../location/Location'
 import About from './about/About'
 
