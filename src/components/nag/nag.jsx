@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-// import Connect from './Connect'
+import Connect from './Connect'
 // import {AiOutlineMenu, AiOutlineSearch, AiOutlineClose} from 'react-icons/ai'
 // import {BsFillCartFill} from 'react-icons/bs'
 import logo from '../../assets/logo.png'
@@ -14,7 +14,7 @@ const Nag = () => {
         </div>
 
         
-        {/* <Connect /> */}
+        <Connect />
 
        
     </div>
