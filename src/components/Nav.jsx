@@ -4,7 +4,7 @@ import {AiOutlineMenu, AiOutlineSearch, AiOutlineClose} from 'react-icons/ai'
 import {BsFillCartFill} from 'react-icons/bs'
 import logo from '../../assets/logo.png'
 
-const Navbar = () => {
+const Nav = () => {
   const [openModal, setOPenModal]= useState(false)
   return (
     <div className='container mx-auto flex justify-between py-8 px-4 md:px-12' >
@@ -21,4 +21,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Nav

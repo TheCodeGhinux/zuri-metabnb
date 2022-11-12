@@ -114,7 +114,7 @@ const Places = () => {
                 <path d="M13.0001 14V10" stroke="#333333" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
 
-                </button>
+                </button> 
                 <div className="">
                     <div className="flex flex-wrap justify-center gap-4 mt-6">
                         <h3 className="flex flex-wrap justify-center gap-4 mt-6 text-xl font-bold md:text-3xl lg:text-5xl">Inspiration for your next adventure</h3>
