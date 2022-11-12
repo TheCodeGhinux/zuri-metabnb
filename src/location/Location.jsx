@@ -90,8 +90,8 @@ const Location = () => {
   return (
     <section className='py-8 container mx-auto px-4'>
         <div className="flex flex-wrap justify-center gap-4 mt-6">
-            <h3 className="flex flex-wrap justify-center gap-4 mt-6 text-xl font-bold md:text-3xl lg:text-5xl">Inspiration for your next adventure</h3>
-            <div className="flex flex-wrap justify-center gap-4 mt-6">
+            {/* <h3 className="flex flex-wrap justify-center gap-4 mt-6 text-xl font-bold md:text-3xl lg:text-5xl">Inspiration for your next adventure</h3> */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-4 mt-6">
                 {data.map(({id, image, name, price, distance, duration}) => {
                     return (
                         <div key={id}  className="flex flex-col gap-3 p-3 rounded-2xl border text-[.8rem] md:w-[18rem]">
