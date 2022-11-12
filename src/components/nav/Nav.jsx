@@ -4,7 +4,7 @@ import Connect from './Connect'
 // import {BsFillCartFill} from 'react-icons/bs'
 import logo from '../../assets/logo.png'
 
-const Nag = () => {
+const Nav = () => {
   // const [openModal, setOPenModal]= useState(false)
   return (
     <div className='container mx-auto flex justify-between py-8 px-4 md:px-12' >
@@ -21,4 +21,4 @@ const Nag = () => {
   )
 }
 
-export default Nag
+export default Nav
