@@ -6,7 +6,7 @@ import img3 from '../../assets/Metabnb btm/image 9.png'
 const About = () => {
   return (
     <div>
-        <div className="flex flex-col gap-32  items-center  px-4 bg-purple text-white md:px-12 md:flex-row">
+        <div className="flex flex-col gap-52 content-center  items-center  px-4 bg-purple text-white md:px-12 md:flex-row">
             <div className="flex flex-col gap-10 md:w-1/3 py-48 lg:pb-64">
                 <h3 className="text-3xl font-bold ">
                 Metabnb NFTs
@@ -16,14 +16,14 @@ const About = () => {
                     Learn more
                 </button>
             </div>
-            <div className=" hidden py-24 ">
-              <div className=" w-full absolute rotate-[18deg] top-[117rem] left-[53rem]">
+            <div className=" hidden lg:block relative py-24 ">
+              <div className=" w-full relative rotate-[18deg] top-[0rem] left-[7rem]">
                 <img className=' ' src={img3} alt="" />
               </div>
-              <div className=" w-full absolute lg:rotate-[-26deg] lg:top-[106rem] lg:left-[38rem]">
+              <div className=" w-full relative lg:rotate-[-26deg] lg:top-[-5rem] lg:left-[-7rem]">
                 <img className=' ' src={img1} alt="" />
               </div>
-              <div className=" w-full relative rotate-[-9deg] top-[9rem] left-[292px]">
+              <div className=" w-full absolute rotate-[-9deg] top-[22rem] left-[9rem]">
                 <img className='w-full  ' src={img2} alt="" />
               </div>
             </div>
