@@ -16,7 +16,7 @@ const About = () => {
                     Learn more
                 </button>
             </div>
-            <div className=" hidden lg:block py-24 ">
+            <div className=" hidden py-24 ">
               <div className=" w-full absolute rotate-[18deg] top-[117rem] left-[53rem]">
                 <img className=' ' src={img3} alt="" />
               </div>
