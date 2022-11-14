@@ -8,6 +8,8 @@ import img5 from '../assets/home-pic/Frame 155.png'
 import img6 from '../assets/home-pic/Frame 156.png'
 import img7 from '../assets/home-pic/Frame 157.png'
 import img8 from '../assets/home-pic/Frame 158.png'
+// import img9 from '../assets/home-pic/Frame 159.png'
+// import img8 from '../assets/home-pic/Frame 158.png'
 
 
 
