@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   const [openModal, setOpenModal]= useState(false)
   return (
-    <div className='container mx-auto flex lg:justify-between py-8 px-4 md:px-12' >
+    <div className='container mx-auto flex justify-between py-8 px-4 md:px-12' >
         <div className='w-40' >
           <img className='w-full' id='logo' src={logo} alt="" />
           
