@@ -30,7 +30,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     },
     {
@@ -39,7 +39,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     },
     {
@@ -48,7 +48,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     },
 
@@ -58,7 +58,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     },
     {
@@ -67,7 +67,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     },
     {
@@ -76,7 +76,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     },
     {
@@ -85,7 +85,7 @@ const data = [
         name: 'Desert king',
         price:'1MBT per night',
         distance:'2345km away',
-        duration:'available for 2 weeks stay',,
+        duration:'available for 2 weeks stay',
 
     }
 
