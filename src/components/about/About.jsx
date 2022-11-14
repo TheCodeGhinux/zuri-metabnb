@@ -6,7 +6,7 @@ import img3 from '../../assets/Metabnb btm/image 9.png'
 const About = () => {
   return (
     <div>
-        <div className="flex flex-col gap-52 content-center  items-center  px-4 bg-purple text-white md:px-12 md:flex-row">
+        <div className="flex flex-col gap-52 content-center justify-center items-center  px-4 bg-purple text-white md:px-12 md:flex-row">
             <div className="flex flex-col gap-10 md:w-1/3 py-48 lg:pb-64">
                 <h3 className="text-3xl font-bold ">
                 Metabnb NFTs
