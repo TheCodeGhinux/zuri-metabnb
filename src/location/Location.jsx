@@ -100,6 +100,7 @@ const Location = () => {
     // const handleClick = () => {
     //     setActive(!active);
     // };
+    
 
   return (
     <section className='py-8 container mx-auto px-4'>

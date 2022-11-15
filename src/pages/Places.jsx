@@ -7,6 +7,14 @@ import img5 from '../assets/places-pic/Frame 155.png'
 import img6 from '../assets/places-pic/Frame 156.png'
 import img7 from '../assets/places-pic/Frame 157.png'
 import img8 from '../assets/places-pic/Frame 158.png'
+import img11 from '../assets/places-pic/Frame 151-8.png'
+import img12 from '../assets/places-pic/Frame 151-9.png'
+import img13 from '../assets/places-pic/Frame 151-10.png'
+import img14 from '../assets/places-pic/Frame 151-11.png'
+import img15 from '../assets/places-pic/Frame 151-12.png'
+import img16 from '../assets/places-pic/Frame 151-13.png'
+import img17 from '../assets/places-pic/Frame 151-14.png'
+import img18 from '../assets/places-pic/Frame 151-15.png'
 
 
 const data = [
@@ -83,16 +91,103 @@ const data = [
         distance:'2345km away',
         duration:'available for 2 weeks stay',
 
-    }
+    },
+    {
+        id: 9,
+        image: img11,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 10,
+        image: img12,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 11,
+        image: img13,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 12,
+        image: img14,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 13,
+        image: img15,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 14,
+        image: img16,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 15,
+        image: img17,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
+    {
+        id: 16,
+        image: img18,
+        name: 'Desert king',
+        price:'1MBT per night',
+        distance:'2345km away',
+        duration:'available for 2 weeks stay',
+
+    },
 
 ]
 const Places = () => {
+    const [category, setCategory] = React.useState('');
+
+  const handleCategoryChange = (category) => {
+     setCategory(category);
+ }
   return (
     <div>
         <div className="">
             <div className="">
-                <div className="flex flex-col lg:flex-row justify-between content-center lg:w-[1177px] mt-28 m-auto items-center ">    
-                    <ul className='flex flex-wrap gap-4 lg:w-[921px] justify-between items-center p-4'>
+                <div className="flex  sm:flex-row lg:flex-row gap-8 justify-center lg:justify-between content-center lg:w-[1177px] mt-28 m-auto items-center ">    
+                <select className='lg:hidden flex items-center gap-10 border border-black rounded-lg p-3.5 outline-none active:border-purple-500  hover:border-purple-500 selection:border-purple-500 active:bg-purple ' name="category" value={category} onChange={event => handleCategoryChange(event.target.value)}>
+                    <option id="restaurant">Restaurant</option>
+                    <option id="cottage">Cottage</option>
+                    <option id="fantast__city">Fantast city</option>
+                    <option id="beach">Beach</option>
+                    <option id="cottage">Cottage</option>
+                    <option id="carbins">Carbins</option>
+                    <option id="off__grid">Off-gris</option>
+                    <option id="farm">Farm</option>
+                </select>
+                    <ul className='flex-wrap hidden lg:flex gap-4 lg:w-[921px] justify-between items-center p-4'>
                         <li>Restaurant</li>
                         <li>Cottage</li>
                         <li>Castle</li>

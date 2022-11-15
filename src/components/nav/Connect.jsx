@@ -6,10 +6,10 @@ import img2 from '../../assets/walletconnect.png'
 
 
 
-const Connect = ({open, onClose}) => {
-    if(!open) return null
+const Connect = ({open,onClose}) => {
+    if(!open) return null;
   return (
-    <div onClick={onClose} className='overlay hover:opacity-100 active:opacity-100' >
+    <div onClick={onClose} className='overlay hover:opacity-100 active:opacity-100 duration-500' >
         <div onClick={(e) => {
           e.stopPropagation()
         }} className="modal__con">
