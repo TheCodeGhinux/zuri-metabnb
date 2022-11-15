@@ -8,9 +8,11 @@ import img5 from '../assets/home-pic/Frame 155.png'
 import img6 from '../assets/home-pic/Frame 156.png'
 import img7 from '../assets/home-pic/Frame 157.png'
 import img8 from '../assets/home-pic/Frame 158.png'
-// import img9 from '../assets/home-pic/Frame 159.png'
-// import img8 from '../assets/home-pic/Frame 158.png'
-
+import styled from "styled-components";
+import love from '../assets/love.svg'
+import love1 from '../assets/vector.svg'
+import {FiHeart} from 'react-icons/fi'
+import {BsSuitHeart} from 'react-icons/bs'
 
 
 
@@ -24,6 +26,8 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />
+        // fav: <FiHeart onClick={handleClick} style={{ fill: active ? "black" : "white" }} className="hover:fill-red-600"/>,
 
     },
     {
@@ -33,6 +37,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -42,6 +47,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -51,6 +57,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
 
@@ -61,6 +68,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -70,6 +78,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -79,6 +88,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -88,6 +98,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
+        fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     }
 
@@ -100,17 +111,16 @@ const Location = () => {
     // const handleClick = () => {
     //     setActive(!active);
     // };
-    
 
   return (
     <section className='py-8 container mx-auto px-4'>
         <div className="flex flex-wrap justify-center gap-4 mt-6">
-            <h3 className="flex flex-wrap justify-center gap-4 mt-6 text-xl font-bold md:text-3xl lg:text-5xl">Inspiration for your next adventure</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center gap-4 mt-6">
+            {/* <h3 className="flex flex-wrap justify-center gap-4 mt-6 text-xl font-bold md:text-3xl lg:text-5xl">Inspiration for your next adventure</h3> */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 justify-center gap-4 mt-6">
 
                 {data.map(({id, image, name, price, distance, duration, fav}) => {
                     return (
-                        <div key={id}  className="flex flex-col gap-3 p-3 rounded-2xl border text-[.8rem] md:w-[18rem] relative">
+                        <div key={id}  className="flex flex-col gap-3 p-3 rounded-2xl border text-[.8rem] lg:w-[14rem] xl:w-[18rem] relative">
                             <img src={image} alt="" className="w-full rounded-2xl" />
                             <svg className='absolute top-6 right-6' width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path className='hover:fill-red-600 active:fill-red-600' d="M9.59964 2.6295L10 3.16463L10.4004 2.6295C 11.3204 1.39971 12.7949 0.599976 14.44 0.599976C17.2315 0.599976 19.5 2.87378 19.5 5.68998C19.5 6.8256 19.3189 7.87372 19.0043 8.84606L19.0032 8.84932C18.249 11.236 16.7035 13.1596 15.0354 14.5933C13.365 16.0288 11.6004 16.9482 10.4589 17.3366L10.4589 17.3366L10.4536 17.3385C10.3537 17.3737 10.1893 17.4 10 17.4C9.81075 17.4 9.64625 17.3737 9.54641 17.3385L9.54642 17.3384L9.54106 17.3366C8.3996 16.9482 6.635 16.0288 4.96465 14.5933C3.29649 13.1596 1.75096 11.236 0.996763 8.84932L0.996774 8.84931L0.995722 8.84607C0.681141 7.87372 0.5 6.8256 0.5 5.68998C0.5 2.87378 2.76848 0.599976 5.56 0.599976C7.2051 0.599976 8.67958 1.39971 9.59964 2.6295Z" fill="#D7D7D7" stroke="url(#paint0_linear_5522_394)"/>

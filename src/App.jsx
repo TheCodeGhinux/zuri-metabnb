@@ -12,6 +12,7 @@ const App = () => {
     // <Main />
     //     <Social />
         <Router>
+          {/* <ScrollRestoration /> */}
           <Layout>
             <Routes>
               <Route exact path='/'  element={<Main />} />

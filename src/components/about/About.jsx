@@ -7,7 +7,7 @@ import img4 from '../../assets/Frame 59546.png'
 const About = () => {
   return (
     <div className='bg-purple flex justify-center'>
-        <div className="flex flex-col gap-12 lg:gap-28 content-center justify-center items-center py-20 px-4 bg-purple text-white md:px-12 md:flex-row lg:px-24 2xl:w-[1241px] 2xl:px-0">
+        <div className="flex flex-col gap-12 lg:gap-28 content-center justify-center items-center px-4 bg-purple text-white md:px-12 md:flex-row lg:px-24 2xl:w-[1241px] 2xl:px-0">
             <div className="flex flex-col basis-1/2 gap-10 md:w-1/3 lg:py-48 lg:pb-64">
                 <h3 className="text-3xl font-bold ">
                 Metabnb NFTs
