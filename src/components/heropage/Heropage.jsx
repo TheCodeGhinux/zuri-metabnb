@@ -8,7 +8,7 @@ import img4 from '../../assets/Metabnb heropage/image 6.png'
 const Home = () => {
   return (
     <section id='heropage' >
-        <div className="flex flex-col gap-4 justify-between items-center container mx-auto py-8 px-4 md:px-12 md:flex-row ">
+        <div className="flex flex-col gap-4 justify-between items-center container mx-auto py-8 px-4 md:px-12 md:flex-row">
             <div className="flex flex-col gap-12 md:w-1/2">
                   <h2 className='text-3xl lg:text-6xl'>Rent a <span className='text-purple font-bold'>Place</span> away from <span className='text-purple font-bold'>Home</span> in the <span className='text-purple font-bold'>Metaverse</span></h2>
                   <p className='text-xl md:text-2xl'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
@@ -16,7 +16,7 @@ const Home = () => {
                 <div className='border flex rounded-md overflow-hidden'>
                   {/* <AiOutlineSearch size={20}/> */}
                   <input type="text" placeholder='Search products' className="w-full px-4 text-sm" />
-                  <button className='bg-purple border-transparent py-2 px-4 text-white w-48 text-sm hover:opacity-75'>Search</button>
+                  <button className='bg-purple border-transparent py-2 px-4 text-white w-48 text-sm hover:opacity-75 z-0'>Search</button>
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-2 pt-6">
