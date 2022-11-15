@@ -8,11 +8,6 @@ import img5 from '../assets/home-pic/Frame 155.png'
 import img6 from '../assets/home-pic/Frame 156.png'
 import img7 from '../assets/home-pic/Frame 157.png'
 import img8 from '../assets/home-pic/Frame 158.png'
-import styled from "styled-components";
-import love from '../assets/love.svg'
-import love1 from '../assets/vector.svg'
-import {FiHeart} from 'react-icons/fi'
-import {BsSuitHeart} from 'react-icons/bs'
 
 
 
@@ -106,11 +101,7 @@ const data = [
 
 
 const Location = () => {
-    // const [color, setColor] = useState(false);
-    // const [active, setActive] = useState(false);
-    // const handleClick = () => {
-    //     setActive(!active);
-    // };
+    
 
   return (
     <section className='py-8 container mx-auto px-4'>
