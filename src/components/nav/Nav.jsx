@@ -10,7 +10,7 @@ const Nav = () => {
   const [openModal, setOpenModal]= useState(false)
   const [nav, setNav]= useState(false)
   return (
-    <div className='container mx-auto flex justify-between items-center py-8 px-4 md:px-12' >
+    <div className='container mx-auto flex justify-between items-center fixed top-0 z-50  bg-white/80 backdrop-blur-sm py-8 px-4 md:px-12' >
         <div className='w-40 lg:basis-1//3' >
           <Link to='/' >
             <img className=' w-40' id='logo' src={logo} alt="" />
