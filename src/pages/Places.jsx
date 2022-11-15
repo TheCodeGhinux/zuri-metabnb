@@ -177,7 +177,7 @@ const Places = () => {
         <div className="">
             <div className="">
                 <div className="flex  sm:flex-row lg:flex-row gap-8 justify-center lg:justify-between content-center lg:w-[1177px] mt-28 m-auto items-center ">    
-                <select className='lg:hidden flex items-center gap-10 border border-black rounded-lg p-3.5 outline-none active:border-purple-500  hover:border-purple-500 selection:border-purple-500 active:bg-purple ' name="category" value={category} onChange={event => handleCategoryChange(event.target.value)}>
+                <select  className='lg:hidden flex items-center gap-10 bg-transparent border border-black rounded-lg p-3.5 outline-none active:border-bg-purple  hover:border-bg-purple selection:border-bg-purple active:bg-purple' name="category" value={category} onChange={event => handleCategoryChange(event.target.value)}>
                     <option id="restaurant">Restaurant</option>
                     <option id="cottage">Cottage</option>
                     <option id="fantast__city">Fantast city</option>
