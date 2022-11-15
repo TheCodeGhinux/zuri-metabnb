@@ -21,7 +21,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />
+        // fav: < BsSuitHeart className='hover:fill-red-600' />
         // fav: <FiHeart onClick={handleClick} style={{ fill: active ? "black" : "white" }} className="hover:fill-red-600"/>,
 
     },
@@ -32,7 +32,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -42,7 +42,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -52,7 +52,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
 
@@ -63,7 +63,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -73,7 +73,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -83,7 +83,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     },
     {
@@ -93,7 +93,7 @@ const data = [
         price:'1MBT per night',
         distance:'2345km away',
         duration:'available for 2 weeks stay',
-        fav: < BsSuitHeart className='hover:fill-red-600' />,
+        // fav: < BsSuitHeart className='hover:fill-red-600' />,
 
     }
 
