@@ -12,7 +12,7 @@ const Connect = ({open,onClose}) => {
     <div onClick={onClose} className='overlay hover:opacity-100 active:opacity-100 duration-500' >
         <div onClick={(e) => {
           e.stopPropagation()
-        }} className="modal__con">
+        }} className="modal__con z-30">
             <div className="modal__right flex justify-between py-6 px-8 text-black text-xl font-bold">
                 <h3 className="">Connect Wallet</h3>
                 <p onClick={onClose} className="close__btn">X</p>
